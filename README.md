@@ -1,3 +1,5 @@
+## To run app use 'docker-compose up' command
+
 # Charge Full Stack API Take Home
 
 Design and code a two endpoint API Server using the following specs:
