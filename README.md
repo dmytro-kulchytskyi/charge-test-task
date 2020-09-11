@@ -1,4 +1,6 @@
-## To run app use 'docker-compose up' command
+### Installation
+
+To setup app use 'docker-compose up' command
 
 # Charge Full Stack API Take Home
 
