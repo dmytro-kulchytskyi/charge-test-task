@@ -1,0 +1,7 @@
+How would you scale this API to process millions of requests?
+    -I Have full REST API, so it can be easy be scaled across multiple servers.
+
+What you think would make this API more secure or easily extensible?
+    - Use OAuth instead of hardcoded API-key :)
+    - Use HTTPS
+    - Use Timestamp validation (add it as HTTP request header): this can prevent very basic brute force 

@@ -1,0 +1,38 @@
+version: '3.5'
+
+services:
+  postgres:
+    image: postgres
+    ports:
+      - "5444:5432"
+    environment:
+      POSTGRES_USER: testuser
+      POSTGRES_PASSWORD: testpassword
+      POSTGRES_DB: testdb
+      PGDATA: /data/postgres
+    volumes:
+      - postgres:/data/postgres
+    restart: unless-stopped
+
+  redis:
+    image: redis
+
+  app:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - postgres
+      - redis
+    environment:
+      SERVER_PORT: 3000
+      DB_HOST: postgres
+      DB_USER: testuser
+      DB_PASS: testpassword
+      DB_NAME: testdb
+      DB_DIALECT: postgres
+      REDIS_HOST: redis
+      REDIS_PORT: 6379
+
+volumes:
+  postgres:
