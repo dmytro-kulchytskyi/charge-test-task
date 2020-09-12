@@ -9,7 +9,7 @@ To setup cli use 'go install charge' commang in 'test-cli' folder
 ###Usage
 
 CLI: 
-execute 'charge post organizations --authorization=HARDCODED_API_KEY --body=./body.json --data=full'
+execute 'charge post organizations --authorization=HARDCODED_API_KEY --body=body.json --data=full'
 
 
 # Charge Full Stack API Take Home
