@@ -1,6 +1,16 @@
 ### Installation
 
-To setup app use 'docker-compose up' command
+API:
+To setup app use 'docker-compose up' command in 'test-api' folder
+
+CLI:
+To setup cli use 'go install charge' commang in 'test-cli' folder
+
+###Usage
+
+CLI: 
+execute 'charge post organizations --authorization=HARDCODED_API_KEY --body=./body.json --data=full'
+
 
 # Charge Full Stack API Take Home
 

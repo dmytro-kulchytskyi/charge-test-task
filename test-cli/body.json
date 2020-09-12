@@ -1,0 +1,34 @@
+{
+  "identifier": "niels.bohr@charge.io",
+  "businessName": "Charge Technology Group, Inc",
+  "dba": "Charge",
+  "ein": "1234567",
+  "businessType": "corporation",
+  "bankAccountType": "checking",
+  "businessStreetAddress": "1100 Highland Ave",
+  "businessCity": "Manhattan Beach",
+  "businessState": "CA",
+  "businessZip": "90266",
+  "businessCountry": "US",
+  "contactFirstName": "Ira",
+  "contactLastName": "Karaba",
+  "contactTitle": "President",
+  "contactPhone": "3237178850",
+  "contactEmail": "ira@charge.io",
+  "website": "https://charge.io",
+  "ip": "76.171.141.40",
+  "deviceFingerprint": "3093vne0ig4n048gweviasefv4oinveslkefjelkjfe",
+  "meta": {
+    "key": "value"
+  },
+  "additionalChecks": [
+    {
+      "name": "bankVerification",
+      "data": {
+        "type": "checking",
+        "account_number": "1234567",
+        "routing_number": "1234567"
+      }
+    }
+  ]
+}
