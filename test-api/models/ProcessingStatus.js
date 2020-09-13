@@ -31,7 +31,7 @@ const ProcessingStatus = sequelize.define('processing', {
     allowNull: false,
     validate: {
       notEmpty: true,
-    //  isIn: [Object.values(Statuses)],
+      isIn: [Object.values(Statuses)],
     },
   },
 });

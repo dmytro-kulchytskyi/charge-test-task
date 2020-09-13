@@ -8,4 +8,3 @@ const sequelize = new Sequelize(name, user, password, {
 });
 
 export default sequelize;
-

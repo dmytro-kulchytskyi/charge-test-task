@@ -73,7 +73,7 @@ function getStatusHistory({ statuses }) {
 function getData(organization, format) {
   const data = extractDataFields(organization);
 
-  if (format === 'base64') {
+  if(format === 'base64') {
     return Buffer.from(JSON.stringify(data)).toString('base64');
   };
 
